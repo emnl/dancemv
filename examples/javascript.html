@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript example</title>
+    <script type="text/javascript" src="http://movelang.org/move-0.4.4-rt.js"></script>
+    <script type="text/javascript" src="../dance.js"></script>
+
+    <script type"text/javascript">
+
+      var dance = Move.require('dance');
+
+      insertion_sort = function(xs) {
+        if (xs.empty) return [];
+        return (insertion_sort(xs.tail)).insert(xs.head);
+      }
+
+      var list = [6,8,2,3,4,5,7,8,9,2,3,1,4,6,2,3];
+
+      console.log(insertion_sort(list));
+
+    </script>
+
+  </head>
+
+  <body>
+    Checkout the javascript console!
+  </body>
+
+</html>

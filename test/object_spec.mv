@@ -1,0 +1,13 @@
+import vows, assert
+import ..src/dance
+
+vows.describe('Object').addBatch({
+
+  '.replicate()': {
+    topic: 10,
+    'will return an array with n element of object': ^(topic) {
+      assert.deepEqual topic.replicate(3), [10,10,10]
+    }
+  }
+
+}).run()
