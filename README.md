@@ -30,7 +30,7 @@ move test/number_spec.mv
 move test/object_spec.mv
 ```
 
-To use Dance with Javascript in the browser, just include the Move runtime:
+To Dance with Javascript in the browser, just include the Move runtime:
 
 ``` html
 <script type="text/javascript" src="http://movelang.org/move-0.4.4-rt.js"></script>
@@ -44,7 +44,7 @@ To use Dance with Javascript in the browser, just include the Move runtime:
 </script>
 ```
 
-To use Dance with Move in the browser, just include Move:
+To Dance with Move in the browser, just include Move:
 
 ``` html
 <script type="text/javascript" src="http://movelang.org/move-0.4.4.js"></script>
